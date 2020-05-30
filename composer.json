@@ -1,0 +1,25 @@
+{
+    "name": "flowerhua/think-im",
+    "description": "适用于tp5的im聊天系统",
+    "keywords": [
+        "im","tp5"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FlowerHua",
+            "email": "875501286@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "flowerhua\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
